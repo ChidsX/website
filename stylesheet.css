@@ -45,6 +45,10 @@ div.infoSectionbox{
 }
 
 .solarpannelImgBox{
+  
+    display: flex;
+    justify-content: center;
+    align-items:center;
     grid-column:1;
     grid-row:1;
     height:200px;
@@ -52,33 +56,50 @@ div.infoSectionbox{
 }
 
 .solarPanelTextBox{
+    
+    display: flex;
+    justify-content: center;
+    align-items:center;
     grid-column:2;
     grid-row:1
 }
 
 .evChargerImgBox{
+    
+    display: flex;
+    justify-content: center;
+    align-items:center;
     grid-column:2;
     grid-row:2
 }
 
 .evChargerTextBox{
+    display: flex;
+    justify-content: center;
+    align-items:center;
     grid-column:1;
     grid-row:2
 }
 
 .smartHomeEngImgBox{
+    display: flex;
+    justify-content: center;
+    align-items:center;
     grid-column:1;
     grid-row:3;
 }
 
 .smartHomeEngTextBox{
+    display: flex;
+    justify-content: center;
+    align-items:center;
     grid-column:2;
     grid-row:3;
 }
 
 .imageBoxSize{
-    height:90%;
-    width : 90%;
+    height:20opx;
+    width : 400px;
 }
 
 .miniSpace{
@@ -94,7 +115,9 @@ div.infoSectionbox{
 
 .bookingBox{
     grid-column: 2;
-    
+    display: flex;
+    justify-content: center;
+    align-items:center;
     border-radius: 16px;
     background-color:#50D890;
     opacity: 97%;
