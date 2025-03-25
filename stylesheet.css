@@ -1,0 +1,108 @@
+body{
+    padding: 0;
+    margin: 0;
+    border:0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('Images/mainPageBackground.jpg');
+    background-size: cover;
+   
+}
+
+.tint{
+    padding: 0;
+    margin: 0;
+    border:0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #EFFFFB;
+    opacity: 80%;
+}
+
+.aboveNav{
+    height: 25px;
+    width:100%;
+}
+
+.navBar{
+    display:flex;
+    height:100px;
+    background-color: #4F98CA;
+    opacity: 80%;
+    
+}
+
+div.infoSectionbox{
+    margin:20px;
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 200px 200px 200px;
+    padding: 8px;
+    background-color: #50D890;
+    opacity:50%;
+
+}
+
+.solarpannelImgBox{
+    grid-column:1;
+    grid-row:1;
+    height:200px;
+
+}
+
+.solarPanelTextBox{
+    grid-column:2;
+    grid-row:1
+}
+
+.evChargerImgBox{
+    grid-column:2;
+    grid-row:2
+}
+
+.evChargerTextBox{
+    grid-column:1;
+    grid-row:2
+}
+
+.smartHomeEngImgBox{
+    grid-column:1;
+    grid-row:3;
+}
+
+.smartHomeEngTextBox{
+    grid-column:2;
+    grid-row:3;
+}
+
+.imageBoxSize{
+    height:90%;
+    width : 90%;
+}
+
+.miniSpace{
+    height : 20px;
+    width: 100%;
+}
+
+.bookingArea{
+    display:grid;
+    grid-template-columns: 30vw 40vw 30vw;
+    grid-template-rows: 125px;
+}
+
+.bookingBox{
+    grid-column: 2;
+    
+    border-radius: 16px;
+    background-color:#50D890;
+    opacity: 97%;
+}
+
+.bookingText{
+    text-align: center;
+    font-size: large;
+}
+
+
